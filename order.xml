@@ -1,0 +1,17 @@
+<shipOrder orderId="string">
+  <orderPerson>Michel</orderPerson>
+  <shipTo>
+    <name>string</name>
+    <address>string</address>
+    <city>string</city>
+    <country>string</country>
+  </shipTo>
+  <!--1 or more repetitions:-->
+  <item>
+    <title>string</title>
+    <!--Optional:-->
+    <note>string</note>
+    <quantity>201</quantity>
+    <price>1000.00</price>
+  </item>
+</shipOrder>
